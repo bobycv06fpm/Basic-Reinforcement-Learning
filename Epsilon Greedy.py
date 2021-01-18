@@ -33,7 +33,7 @@ num_arms = 3;         # Number of restaurants / arms
 dev_vals=[];
 mu_vals=[];
 for i in range(0,num_restaurants):
-    mu_vals.append(3*(i+1));
+    mu_vals.append(2*(i+1)/4);
     dev_vals.append(mu_vals[i]*dev_factor);
     
     
